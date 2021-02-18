@@ -17,4 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_a5lte.mk
+    $(LOCAL_DIR)/omni_a5lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_a5lte-eng
